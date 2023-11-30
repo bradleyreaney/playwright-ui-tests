@@ -1,0 +1,19 @@
+{
+  "name": "playwright-ui-tests",
+  "version": "1.0.0",
+  "description": "UI test examples using Playwright.",
+  "main": "index.js",
+  "scripts": {
+    "open": "npx playwright test --ui",
+    "test": "npx playwright test",
+    "report": "npx playwright show-report",
+    "testWithReport": "npm run test && npm run report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.40.1",
+    "@types/node": "^20.10.1"
+  }
+}
